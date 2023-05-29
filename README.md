@@ -14,3 +14,7 @@ admin:
 docker ps
 docker exec -it 60a bash
 rabbitmqadmin publish exchange=amq.default routing_key="TestQueue" payload="Hello world"
+
+
+Git:Set User
+ git remote set-url origin https://IskenT@github.com/IskenT/go-rabbitmq.git
